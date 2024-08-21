@@ -1,4 +1,4 @@
-finding factorial of n :  n! = n * (n-1) * (n-2) * (n-3) … 
+[x] finding factorial of n :  n! = n * (n-1) * (n-2) * (n-3)… 
 
 check leap year : A year evenly divisible by 100 & 400 is a leap year
 
@@ -8,8 +8,8 @@ check whether string is palindrome : [ Palindrome: a number (such as 16461) that
 
 check whether number is armstrong :  [It's a number that equals the sum of its digits, each raised to a power. For example, if you have a number like 153, it's an Armstrong number because 1^3 + 5^3 + 3^3 equals 153.]
 
-find n fibonacci numbers : download fibonacci package [fibonacci numbers- 1,1,2,3,5,8,13,21,34,.....]
-
+[x] find n fibonacci numbers : download fibonacci package [fibonacci numbers- 0,1,1,2,3,5,8,13,21,34,.....]
+                           F(n-1) + F(n-2) where n>=3
 check whether number is prime : use isPrime()
 
 find greatest common divisor : use gcd abstract method [ int gcd(int other) ]
