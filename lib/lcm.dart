@@ -1,5 +1,5 @@
 void main() {
-  var l = lcm(27);
+  var l = lcm(17);
   print(l);
 }
 
