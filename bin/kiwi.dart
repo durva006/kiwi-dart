@@ -1,13 +1,16 @@
 void main() {
-  var r = reverseString('hello world');
-  print(r);
-}
+  var x = [45, 86, 12, 5, 10];
+  var largestValue = x[0];
+  var smallestValue = x[0];
 
-String reverseString(String input) {
-  var result = "";
-  for (var i = input.length - 1; i >= 0; i--) {
-    var v = input[i];
-    result = result + v;
+  for (var i = 0; i < x.length; i++) {
+    if (x[i] > largestValue) {
+      largestValue = x[i];
+    }
+    if (x[i] < smallestValue) {
+      smallestValue = x[i];
+    }
   }
-  return result;
+  print('Smallest value in the list:$smallestValue');
+  print('Largest value in the list:$largestValue');
 }

@@ -20,7 +20,7 @@
 
 - [x] count vowels in a string : 
 
-- [ ] reverse the string :
+- [x] reverse the string :
 
 - [x] check whether the number is a perfect square :
 
@@ -38,7 +38,7 @@
 
 - [ ] find missing number in a sequence : Using sum formula n*(n+1)/2 
 
-- [ ] find smallest/largest element in a list : Using for loop to find the largest and smallest element.
+- [x] find smallest/largest element in a list : Using for loop to find the largest and smallest element.
                                           Using sort function to find the largest and smallest element.
                                           Using forEach loop to find the largest and smallest element.
                                           Using only reduce method in dart to find the largest and smallest element.
