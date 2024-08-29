@@ -24,15 +24,15 @@
 
 - [x] check whether the number is a perfect square :
 
-- [ ] calculate sum of digits :
+- [x] calculate sum of digits :
 
-- [ ] check if two strings are anagrams :
+- [x] check if two strings are anagrams :
 
 - [x] check character of frequency :
 
-- [ ] print a pyramid pattern of size n :
+- [x] print a pyramid pattern of size n :
 
--  [ ] make a temperature converter : Using the formula--> fahrenheit=celsius*9/5+32 or celcius=5/9*fahrenheit*-32
+-  [x] make a temperature converter : Using the formula--> fahrenheit=celsius*9/5+32 or celcius=5/9*fahrenheit*-32
 
 - [ ] remove duplicates in a list : 
 
