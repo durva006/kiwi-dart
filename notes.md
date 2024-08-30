@@ -6,7 +6,7 @@
 
 - [x] check whether string is palindrome : [ Palindrome: a number (such as 16461) that remains the same when its digits are reversed]
 
-- [ ] check whether number is armstrong :  [It's a number that equals the sum of its digits, each raised to a power. For example, if you have a number like 153, it's an Armstrong number because 1^3 + 5^3 + 3^3 equals 153.]
+- [x] check whether number is armstrong :  [It's a number that equals the sum of its digits, each raised to a power. For example, if you have a number like 153, it's an Armstrong number because 1^3 + 5^3 + 3^3 equals 153.]
 
 - [x] find n fibonacci numbers : download fibonacci package [fibonacci numbers- 0,1,1,2,3,5,8,13,21,34,.....]
                            F(n-1) + F(n-2) where n>=3
@@ -45,5 +45,6 @@
                                           Using reduce method with dart:math library.
                                           Using fold method with dart to find the largest and smallest element.
                                           Using fold method with dart:math library.
+
 
 

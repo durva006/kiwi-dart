@@ -27,6 +27,3 @@ bool armstrongNumber(int target) {
     return false;
   }
 }
-// seperate the digits of the given number
-// the raised power is equal to the number of digits of the given number
-// add the numbers while raising a power to each number
