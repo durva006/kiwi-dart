@@ -34,7 +34,7 @@
 
 -  [x] make a temperature converter : Using the formula--> fahrenheit=celsius*9/5+32 or celcius=5/9*fahrenheit*-32
 
-- [ ] remove duplicates in a list : 
+- [x] remove duplicates in a list : 
 
 - [ ] find missing number in a sequence : Using sum formula n*(n+1)/2 
 
