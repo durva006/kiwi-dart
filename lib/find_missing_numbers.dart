@@ -20,12 +20,3 @@ int? findMissingNumber(List<int> input) {
   }
   return null;
 }
-
-// To find missing numbers from a given sequence:-
-// given sequence: [-3,1,__,9,13,__21]
-// find the common difference between two consecutive numbers
-// eg. 1-(-3)= 4
-//     13-9= 4
-// The common difference in the given sequence is 4
-// Now, add 4 in the number that comes before the missing number to obtain the value of the same
-// eg. 1+4= 5 & 13+4= 17, hence the sequence is completed : [-3, 1, 5, 9, 13, 17, 21]

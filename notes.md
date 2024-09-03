@@ -36,7 +36,7 @@
 
 - [x] remove duplicates in a list : 
 
-- [ ] find missing number in a sequence : Using sum formula n*(n+1)/2 
+- [x] find missing number in a sequence : Using sum formula n*(n+1)/2 
 
 - [x] find smallest/largest element in a list : Using for loop to find the largest and smallest element.
                                           Using sort function to find the largest and smallest element.
