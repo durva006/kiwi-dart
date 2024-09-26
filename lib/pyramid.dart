@@ -1,7 +1,12 @@
-import 'dart:ffi';
+import 'dart:io';
 
 void main() {
-  printPyramid(10);
+  stdout.write('enter the pyramid height: ');
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  }
+  printPyramid(int.parse(input));
 }
 
 void printPyramid(int n) {
@@ -14,6 +19,6 @@ void printPyramid(int n) {
       l = l + '*';
       l = l + " ";
     }
-    print(l);
+    stdout.writeln(l);
   }
 }

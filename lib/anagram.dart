@@ -1,6 +1,16 @@
+import 'dart:io';
+
 void main() {
-  var s = isAnagram("rescue", "securex");
-  print(s);
+  stdout.write('enter value of a: ');
+  String? a = stdin.readLineSync();
+  stdout.write('enter value of b: ');
+  String? b = stdin.readLineSync();
+  if (a == null || b == null) {
+    exit(1);
+  }
+  var s = isAnagram(a, b);
+
+  stdout.writeln(s);
 }
 
 bool isAnagram(String a, String b) {

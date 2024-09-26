@@ -1,8 +1,16 @@
 import 'dart:math';
+import 'dart:io';
 
 void main() {
-  var p = findPerfectSquare(49);
-  print(p);
+  stdout.write("Enter a number: ");
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var number = int.parse(input);
+    var p = findPerfectSquare(number);
+    print(p);
+  }
 }
 
 bool findPerfectSquare(int n) {

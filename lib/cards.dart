@@ -1,3 +1,5 @@
+import 'dart:io';
+
 class Card {
   String faceValue = "";
   String suit = "";
@@ -65,7 +67,7 @@ void main() {
   }
   for (var b = 0; b < deck.length; b++) {
     var w = deck[b];
-    print("card value of w=" + w.faceValue + "," + w.suit);
+    stdout.write("card value of w=" + w.faceValue + "," + w.suit);
   }
   // for (var k = 0; k < deck.length; k++) {
   //   var l = deck[k];
@@ -84,7 +86,7 @@ void main() {
   deck.shuffle();
   var handA = getHand(5);
   var handB = getHand(5);
-  print(handA);
-  print(handB);
-  print(deck.length);
+  stdout.write(handA);
+  stdout.write(handB);
+  stdout.write(deck.length);
 }

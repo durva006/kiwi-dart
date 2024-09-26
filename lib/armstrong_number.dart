@@ -1,8 +1,20 @@
+import 'dart:io';
 import 'dart:math';
 
 void main() {
-  var a = armstrongNumber(370);
-  print(a);
+  stdout.write("enter a number: ");
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  }
+  try {
+    var number = int.parse(input);
+    var a = armstrongNumber(number);
+    print(a);
+  } on FormatException {
+    stderr.writeln("invalid input");
+    exit(5);
+  }
 }
 
 bool armstrongNumber(int target) {

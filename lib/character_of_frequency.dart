@@ -1,6 +1,16 @@
+import 'dart:io';
+
 //check character of frequency
 void main() {
-  print(findFrequency('constitution'));
+  stdout.write('Enter a number/word: ');
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var word = (input);
+    var x = findFrequency(word);
+    print(x);
+  }
 }
 
 Map findFrequency(String text) {

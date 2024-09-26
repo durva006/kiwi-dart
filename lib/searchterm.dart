@@ -1,3 +1,5 @@
+import 'dart:io';
+doubt
 void searchtermexample() {
   var x = [4, 2, 5, 3, 6];
   findItem(x, 2);
@@ -9,10 +11,10 @@ findItem(List x, num searchTerm) {
     var item = x[i];
     if (item == searchTerm) {
       found = true;
-      print(i);
+      stdout.write(i);
     }
   }
   if (!found) {
-    print('notfound');
+    stdout.write('notfound');
   }
 }

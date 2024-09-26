@@ -10,7 +10,7 @@
 
 - [x] find n fibonacci numbers : download fibonacci package [fibonacci numbers- 0,1,1,2,3,5,8,13,21,34,.....]
                            F(n-1) + F(n-2) where n>=3
-- [ ] check whether number is prime : use isPrime()
+- [x] check whether number is prime : use isPrime()
 
 - [-] find greatest common divisor : use gcd abstract method [ int gcd(int other) ]
 

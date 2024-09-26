@@ -1,3 +1,5 @@
+import 'dart:io';
+
 num calculation(num oldAverageRating, num numberofratings) {
   return ((oldAverageRating * numberofratings) + 1 + 5) /
       (numberofratings + 1 + 1);
@@ -8,10 +10,10 @@ void printBetterProduct(double oldAverageRatingA, int numberofratingsA,
   var a = calculation(oldAverageRatingA, numberofratingsA);
   var b = calculation(oldAverageRatingB, numberofratingsB);
   if (a > b) {
-    print("A is a better product");
+    stdout.write('A is a better product');
   } else if (b > a) {
-    print("B is a better product");
+    stdout.write('B is a better product');
   } else {
-    print("A & B both are good products");
+    stdout.write('A & B both are good products');
   }
 }

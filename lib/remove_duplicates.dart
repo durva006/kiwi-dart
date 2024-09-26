@@ -1,4 +1,6 @@
-void main() {
+import 'dart:io';
+
+void removeDupes() {
   var l = [
     'd',
     'u',
@@ -17,7 +19,7 @@ void main() {
     'r'
   ];
   removeDuplicates(l);
-  print(l);
+  stdout.write(l);
 }
 
 void removeDuplicates(List n) {
@@ -36,6 +38,6 @@ void removeDuplicates(List n) {
     var index = i - indexShift;
     n.removeAt(index);
     indexShift = indexShift + 1;
-    print(i);
+    stdout.write(i);
   }
 }

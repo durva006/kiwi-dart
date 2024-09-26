@@ -1,6 +1,15 @@
+import 'dart:io';
+
 void main() {
-  var f = findFibonacciNumbers(100);
-  print(f);
+  stdout.write('Enter a number: ');
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var number = int.parse(input);
+    var a = findFibonacciNumbers(number);
+    stdout.write(a);
+  }
 }
 
 List<BigInt> findFibonacciNumbers(int n) {

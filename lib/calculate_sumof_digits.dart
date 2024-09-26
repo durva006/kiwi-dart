@@ -1,6 +1,15 @@
+import 'dart:io';
+
 void main() {
-  var d = calculateSumOfDigits(2468);
-  print(d);
+  stdout.write('enter a number: ');
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var number = int.parse(input);
+    var d = calculateSumOfDigits(number);
+    stdout.write(d);
+  }
 }
 
 int calculateSumOfDigits(int n) {
