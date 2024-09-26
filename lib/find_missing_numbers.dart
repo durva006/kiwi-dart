@@ -1,7 +1,21 @@
+import 'dart:io';
+
 void main() {
-  var x = [10, 15, 20, 30, 35, 40, 45, 50];
-  var r = findMissingNumber(x);
-  print(r);
+  stdout.write("enter a list: ");
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var list = input.split(',');
+    List<int> x = [];
+    for (var a = 0; a < list.length; a++) {
+      var y = list[a];
+      var r = int.parse(y);
+      x.add(r);
+    }
+    var a = findMissingNumber(x);
+    print(a);
+  }
 }
 
 int? findMissingNumber(List<int> input) {

@@ -1,8 +1,19 @@
+import 'dart:io';
+
 void main() {
-  var r = celciusToFahrenheit(36);
-  var s = fahrenheitToCelcius(48);
-  print(r);
-  print(s);
+  stdout.write("Enter temperature: ");
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var number = int.parse(input);
+    stdout.write('Degree Fahrenheit: ');
+    var r = celciusToFahrenheit(number);
+    print(r);
+    stdout.write('Degree Celcius: ');
+    var s = fahrenheitToCelcius(number);
+    print(s);
+  }
 }
 
 double celciusToFahrenheit(int n) {

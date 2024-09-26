@@ -1,6 +1,15 @@
+import 'dart:io';
+
 void main() {
-  var r = reverseString('hello world');
-  print(r);
+  stdout.write("Enter a string: ");
+  var input = stdin.readLineSync();
+  if (input == null) {
+    exit(1);
+  } else {
+    var string = (input);
+    var r = reverseString(string);
+    print(r);
+  }
 }
 
 String reverseString(String input) {

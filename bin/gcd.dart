@@ -1,6 +1,8 @@
-void main() {
+import 'dart:io';
+
+void findGCD() {
   var g = gcd(48);
-  print(g);
+  stdout.write(g);
 }
 
 int gcd(int n) {

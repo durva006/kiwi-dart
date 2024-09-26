@@ -1,3 +1,5 @@
+import 'dart:io';
+
 bool isArmstrongNumber(String number) {
   var totalNumber = BigInt.from(0);
 
@@ -10,6 +12,6 @@ bool isArmstrongNumber(String number) {
   return totalNumber.toString() == number;
 }
 
-void main() {
-  print(isArmstrongNumber('11513221'));
+void findArmstrongNumber() {
+  stdout.write(isArmstrongNumber('11513221'));
 }

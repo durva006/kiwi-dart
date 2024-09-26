@@ -1,4 +1,6 @@
-void main() {
+import 'dart:io';
+
+void lAndSElements() {
   var x = [45, 86, 12, 5, 10];
   var largestValue = x[0];
   var smallestValue = x[0];
@@ -11,6 +13,8 @@ void main() {
       smallestValue = x[i];
     }
   }
-  print('Smallest value in the list:$smallestValue');
-  print('Largest value in the list:$largestValue');
+  stdout.write('Smallest value in the list:$smallestValue');
+  stdout.write('Largest value in the list:$largestValue');
 }
+
+doubt
